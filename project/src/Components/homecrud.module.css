@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(62, 62, 62);
+    
+}
+/* -----------------------------------------------------------NAV-BAR------------------------------------------ */
+#nav{
+     
+    height: 80px;
+    width: 100%;
+    background-color: rgb(194, 192, 193);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    box-shadow:  inset -12px -12px 2px rgb(159, 157, 157),
+    inset 12px 12px 2px rgb(141, 139, 139);
+     
+}
+#nav>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    text-shadow:0px 0px 5px rgb(0, 0, 0),
+                0px 0px 10px rgb(253, 251, 251),
+                0px 0px 30px rgb(253, 252, 252);
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+#nav>a:hover{
+     text-shadow: 0px 0px 10px rgb(51, 189, 244),
+     0px 0px 20px rgb(243, 4, 195);
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------CREATE-USER---------------------------------------------*/
+
+#myForm{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 87vh;
+   width: 100%;
+   background-color: rgb(117, 117, 117);
+    
+}
+#myForm>form{
+    font-size: 17px;
+    margin-top: -10px;
+    background-color: rgb(207, 206, 207);
+    height: 370px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    border-radius: 15px;
+    box-shadow:  inset -12px -12px 2px rgb(164, 163, 163),
+    inset 20px 20px 3px rgb(236, 235, 235),
+    28px 28px 40px rgb(2, 2, 2),
+    0px -10px 400px rgb(252, 137, 6),
+    0px 100px 400px rgb(253, 126, 253); 
+    
+}
+
+ 
+#myForm>form>input{
+    border: none;
+    background-color:transparent;
+    border-bottom: 1px solid #616161;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+#myForm>form>label{
+    margin-left: -120px;
+    margin-bottom: -7px;
+    letter-spacing: 1.5px;
+}
+#myForm>form>button{
+    cursor: pointer;
+    margin-top: -15px;
+    letter-spacing: 1px;
+    padding: 7px 18px;
+    background-color: rgb(203, 202, 202);
+    border: none;
+    padding: 12px 29px;
+    border-radius: 100px;
+    box-shadow:  inset -5px -5px 2px rgb(158, 156, 156),
+    inset 4px 4px 2px rgb(236, 233, 233);
+     
+}
+ 
+/* -------------------------------------------------------USER--------------------------------------------- */
+
+ #userPage{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 60px;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(113, 112, 112);
+ }
+#profile{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 260px;
+    width: 200px;
+    background-color: rgb(205, 203, 203);
+    border-radius: 16px;
+    box-shadow:  inset -12px -12px 2px rgb(178, 177, 177),
+    inset 15px 15px 4px rgb(236, 235, 235),
+    25px 25px 30px rgb(2, 2, 2),
+    0px 0px 150px rgb(246, 163, 67),
+    0px 100px 150px rgb(249, 148, 249);
+}
+ table{   
+    margin-top: 10px; 
+    padding: 16px;
+}
+td{
+    padding: 12px 5px;
+}
+th{
+    color: rgb(82, 82, 82);
+    font-weight: 600;
+    
+}
+button{
+    font-size: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    padding: 6px 12px;
+   color: rgb(80, 80, 80);
+    background-color: rgb(203, 202, 202);
+    border: none;
+    border-radius: 100px;
+    box-shadow:  inset -5px -5px 2px rgb(158, 156, 156),
+    inset 4px 4px 2px rgb(236, 233, 233);
+    
+}
+ 

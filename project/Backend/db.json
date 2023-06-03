@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "Sajid",
+      "salary": "45000",
+      "company": "Wipro",
+      "id": 1
+    },
+    {
+      "name": "Saif",
+      "salary": "45000",
+      "company": "iosys",
+      "id": 5
+    },
+    {
+      "name": "Saif",
+      "salary": "45000",
+      "company": "iosys",
+      "id": 5
+    },
+    {
+      "name": "Saif",
+      "salary": "45000",
+      "company": "iosys",
+      "id": 5
+    },
+    {
+      "name": "Saif",
+      "salary": "45000",
+      "company": "iosys",
+      "id": 5
+    }
+  ]
+}
