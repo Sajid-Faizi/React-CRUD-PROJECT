@@ -34,6 +34,7 @@ const  Createuser=()=>{
     return(
         <div id={style.myForm}>
             <form>
+                <h2>Create User</h2>
                 <label>Name</label>
                 <input type="text" value={name} onChange={nameData} />
                 <label>Salary</label>
