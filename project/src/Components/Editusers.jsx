@@ -55,7 +55,7 @@ const Editusers = () => {
                 <input type="text" value={salary} onChange={salaryData} />
                 <label>Company</label>
                 <input type="text" value={company} onChange={companyData} /> 
-                <button onClick={formHandel}>Update</button>
+                <button id={style.updateBtn} onClick={formHandel}>Update</button>
                  
             </form>
         </div>
