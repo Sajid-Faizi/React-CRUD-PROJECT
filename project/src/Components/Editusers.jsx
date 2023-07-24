@@ -48,7 +48,7 @@ const Editusers = () => {
     return (
         <div id={style.myForm}>
             <form>
-                <h4>UPDATE USER</h4>
+                <h2>Update User</h2>
                 <label>Name</label>
                 <input type="text" value={name} onChange={nameData} />
                 <label>Salary</label>
